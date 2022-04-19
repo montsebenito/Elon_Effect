@@ -3,11 +3,11 @@
 Evaluated and optimized several supervised learning models (mae ~ $5900) to find out if there is a direct relationship between the content of Elon Musk's daily tweets and the price behavior of Bitcoin. 
 
 This project follows the CRISP-DM process model:
-**Business Understanding**: Building a highly predictive model to forecast Bitcoin behavior, based on Elon Musk daily tweets, presents an undisputable lucrative advantage.  
-**Data Collection**: Crypto market data is collected using pandas data-reader library and yahoo finance API. Elon's tweets are fetched using tweepy.
-**Data Wrangling and Preparation**: Preprocessed tweets (removing stop words, hyperlinks, mentions,..) plus extracted most popular (tweeted) words and created new features considering if the tweet contains these words or not. Included training data from January-2019 to January-2022 (7278 tweets and replies) and 238 tweets on test data from January-2022 to February-2022.
-**Data Modeling**: Evaluated 3 different regression models to determine which algorithm will provide the lowest mean absolute error. Optimized Gradient Boosting Regressor using GridCV. Used MAE (mean absolute error) and not other model metric as it is very useful when the target follows a skewed distribution: outliers will not influence models attempting to optimize on this metric as much as if when the mean squared error is used in this case.
-**Results Evaluation**: Model predicts Bitcoin price with around 12% mean absolute error. Most interestingly, its trends and behaviour fits with real data with a preceeding offset that will allow a trader made buy/sell decisions in advance. 
+- **Business Understanding**: Building a highly predictive model to forecast Bitcoin behavior, based on Elon Musk daily tweets, presents an undisputable lucrative advantage.  
+- **Data Collection**: Crypto market data is collected using pandas data-reader library and yahoo finance API. Elon's tweets are fetched using tweepy.
+- **Data Wrangling and Preparation**: Preprocessed tweets (removing stop words, hyperlinks, mentions,..) plus extracted most popular (tweeted) words and created new features considering if the tweet contains these words or not. Included training data from January-2019 to January-2022 (7278 tweets and replies) and 238 tweets on test data from January-2022 to February-2022.
+- **Data Modeling**: Evaluated 3 different regression models to determine which algorithm will provide the lowest mean absolute error. Optimized Gradient Boosting Regressor using GridCV. Used MAE (mean absolute error) and not other model metric as it is very useful when the target follows a skewed distribution: outliers will not influence models attempting to optimize on this metric as much as if when the mean squared error is used in this case.
+- **Results Evaluation**: Model predicts Bitcoin price with around 12% mean absolute error. Most interestingly, its trends and behaviour fits with real data with a preceeding offset that will allow a trader made buy/sell decisions in advance. 
 
 
 ## Code and Resources Used
