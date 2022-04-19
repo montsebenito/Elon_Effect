@@ -27,5 +27,5 @@ Please read this [project' post](https://montsebenito.github.io/elonmusk) for mo
 
 
 ## Thanks!:
-[Elon Musk Tweets] (https://www.kaggle.com/datasets/neelgajare/all-elon-musk-tweets-2022-updated)
-[Introduction to ML with Tensorflow](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230)
+- [Elon Musk Tweets] (https://www.kaggle.com/datasets/neelgajare/all-elon-musk-tweets-2022-updated)
+- [Introduction to ML with Tensorflow](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230)
