@@ -31,3 +31,6 @@ Please read this [project' post](https://montsebenito.github.io/elonmusk) for mo
 ## Thanks!:
 - [Elon Musk Tweets] (https://www.kaggle.com/datasets/neelgajare/all-elon-musk-tweets-2022-updated)
 - [Introduction to ML with Tensorflow](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230)
+- Mehta, Neel; Agashe, Adi; Detroja, Parth. Buble or Revolution 
+- Michael Jermaann [Predicting Stock Movement through Executive Tweets](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2743946.pdf)
+
