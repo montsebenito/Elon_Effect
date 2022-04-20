@@ -9,6 +9,8 @@ This project follows the CRISP-DM process model:
 - **Data Modeling**: Evaluated 3 different regression models to determine which algorithm will provide the lowest mean absolute error. Optimized Gradient Boosting Regressor using GridCV. Used MAE (mean absolute error) and not other model metric as it is very useful when the target follows a skewed distribution: outliers will not influence models attempting to optimize on this metric as much as if when the mean squared error is used in this case.
 - **Results Evaluation**: Model predicts Bitcoin price with around 12% mean absolute error. Most interestingly, its trends and behaviour fits with real data with a preceeding offset that will allow a trader made buy/sell decisions in advance. 
 
+You can take a look a [post](https://montsebenito.github.io/elonmusk/) about this project,too.
+
 
 ## Code and Resources Used
 - Python Version: 3.8.5
